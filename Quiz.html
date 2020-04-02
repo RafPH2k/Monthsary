@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+<title>Monthsary Quiz!</title>
+<link href ="css/style3.css" rel ="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+<script src = "js/main.js"></script>
+
+</head>
+
+
+<body>
+    <body style="background-image: url(css/Back.jpg); background-size: cover">
+<h1><center>Monthsary Quiz!</center></h1>
+
+
+<form id = "quiz" name = "quiz">
+
+
+<p class = "questions">When is your Monthsary? must be in this format aug,3,9999.</p>
+<input id = "textbox" type = "text" name = "question1">
+
+<p class = "questions">What is the Fave sports of Raffy?</p>
+<input type = "radio" id = "mc" name = "question2" value = "Basketball"> Basketball<br>
+<input type = "radio" id = "mc" name = "question2" value = "Table Tennis"> Table Tennis<br>
+<input type = "radio" id = "mc" name = "question2" value = "Soccer"> Soccer<br>
+
+<p class = "questions">What is his Fave Color?</p>
+
+<input type = "radio" id = "mc" name = "question3" value = "Black"> Black<br>
+<input type = "radio" id = "mc" name = "question3" value = "Blue"> Blue<br>
+<input type = "radio" id = "mc" name = "question3" value = "Violet"> Violet<br>
+    
+<p class = "questions">Birthdate of Raffy?</p>
+<input type = "radio" id = "mc" name = "question4" value = "08/08/2000"> 08/08/2000<br>
+<input type = "radio" id = "mc" name = "question4" value = "09/08/1999"> 09/08/1999<br>
+<input type = "radio" id = "mc" name = "question4" value = "08/07/2000"> 08/07/2000<br>
+
+<p class = "questions">Fave Game of Raffy?</p>
+<input type = "radio" id = "mc" name = "question5" value = "Teamfight Tactics"> Teamfight Tactics<br>
+<input type = "radio" id = "mc" name = "question5" value = "League of Legends"> League of Legends<br>
+<input type = "radio" id = "mc" name = "question5" value = "Human Fall Flat"> Human Fall Flat<br>
+
+
+<input id = "button" type = "button" value = "I'm finished!" onclick = "check();">
+
+
+</form>
+
+<div id = "after_submit">
+<p id = "number_correct"></p>
+<p id = "message"></p>
+<img id = "picture">
+</div>
+
+
+</body>
+</html>
+    
+
+
+
